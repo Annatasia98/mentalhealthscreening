@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/containerDass"
+    android:paddingTop="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".dass">
+
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-black"
+        android:text="UJIAN DASS"
+        android:textColor="#48D1CC"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc"
+        android:text="APA ITU DASS? "
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/banner"
+        />
+
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/manual1"
+        android:text="@string/dassDecs"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="#000"
+        app:trimExpandedText="@string/read_less"
+        app:trimCollapsedText="@string/read_more"
+        app:trimMode="trimModeLength"
+        app:trimLength="20"
+        app:colorClickableText="#43A6F5"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/desc"
+        />
+
+    <LinearLayout
+        android:id="@+id/dass"
+        android:layout_below="@+id/banner"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        />
+
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descDepress"
+        android:text="@string/dassDepress"
+        android:textStyle="normal"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="#000"
+        app:trimExpandedText="@string/read_less"
+        app:trimCollapsedText="@string/read_more"
+        app:trimMode="trimModeLength"
+        app:trimLength="20"
+        app:colorClickableText="#43A6F5"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/depress"
+        />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/depress"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/manual1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="#A9A9A9"
+        app:cardCornerRadius="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:text="KEMURUNGAN"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dass" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descAnxiety"
+        android:text="@string/dassAnxiety"
+        android:textStyle="normal"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="#000"
+        app:trimExpandedText="@string/read_less"
+        app:trimCollapsedText="@string/read_more"
+        app:trimMode="trimModeLength"
+        app:trimLength="20"
+        app:colorClickableText="#43A6F5"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/anxiety"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/anxiety"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/descDepress"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="#A9A9A9"
+        app:cardCornerRadius="15dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:text="KERESAHAN"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dass" />
+    </androidx.cardview.widget.CardView>
+
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descStress"
+        android:text="@string/dassStress"
+        android:textStyle="normal"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="#000"
+        app:trimExpandedText="@string/read_less"
+        app:trimCollapsedText="@string/read_more"
+        app:trimMode="trimModeLength"
+        app:trimLength="20"
+        app:colorClickableText="#43A6F5"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/stress"
+        />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/stress"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/descAnxiety"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="#A9A9A9"
+        app:cardCornerRadius="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:text="STRES"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dass" />
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

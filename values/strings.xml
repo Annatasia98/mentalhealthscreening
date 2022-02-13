@@ -1,0 +1,193 @@
+<resources>
+    <string name="app_name">MentalHealth</string>
+    <string name="perasaan_awak_okay">PERASAAN AWAK OKAY?</string>
+    <string name="terapi_jiwaku">TERAPI JIWAKU</string>
+    <string name="peneman_jiwa">Peneman Jiwa</string>
+    <string name="ujian_dass">UJIAN DASS</string>
+    <string name="mental_health">TERAPI JIWAKU</string>
+    <string name="selfcare">Peneman Jiwa</string>
+    <string name="email">Email</string>
+    <string name="kata_laluan">Kata Laluan</string>
+    <string name="daftar_masuk">Daftar Masuk</string>
+    <string name="lupa_kata_laluan">Lupa Kata Laluan?</string>
+    <string name="daftar">Daftar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="qoute1">Di tengah musim dingin aku akhirnya menemukan bahwa di dalam diriku ada musim panas yang tak terkalahkan.</string>
+    <string name="qoute2">Jika sampai saat ini kamu masih mampu bertahan dari apa yang kamu alami, aku bangga padamu</string>
+    <string name="qoute3">Hanya karena itu belum terjadi, bukan berarti itu takkan pernah terjadi, jadi teruslah berjuang</string>
+    <string name="qoute4">Kita semua manusia, mencari-cari, belajar, tumbuh. Kita semua berbuat salah dan berharap menjadi/melakukan yang lebih baik. </string>
+    <string name="qoute5">Jika kamu merasa ingin menyerah, lihat kembali seberapa jauh kamu sudah berjuang</string>
+    <string name="qoute6">Harga sebenarnya dari segala sesuatu adalah jerih payah dan kesulitan untuk memperolehnya</string>
+    <string name="qoute7">Jangan biarkan emosi berlebih menghampiri sehingga tidak mampu mengendalikan perasaan dan perilakunya</string>
+    <string name="qoute8">Tidak ada target yang selalu tercapai, tidak ada keinginan yang selalu terwujud: jadilah manusia yang selalu siap dalam situasi apa pun</string>
+    <string name="qoute9">Aku akan terus berubah menjadi lebih baik, meski pandangan orang lain tak berubah</string>
+    <string name="qoute10">Belajar ikhlas, karena Allah Maha Adil</string>
+
+    <string name="score">Score 0</string>
+    <string name="question_number">1/7 Soalan </string>
+
+    <string name="murung1">Saya seolah-olah tidak dapat mengalami perasaan positif sama sekali</string>
+    <string name="murung1_A">0 - Tidak Pernah</string>
+    <string name="murung1_B">1 - Jarang</string>
+    <string name="murung1_C">2 - Kerap</string>
+    <string name="murung1_D">3 - Sangat Kerap</string>
+    <string name="answer_m1">3 - Sangat Kerap</string>
+
+    <string name="murung2">Saya rasa tidak bersemangat untuk memulakan sesuatu keadaan</string>
+    <string name="murung2_A">0 - Tidak Pernah</string>
+    <string name="murung2_B">1 - Jarang</string>
+    <string name="murung2_C">2 - Kerap</string>
+    <string name="murung2_D">3 - Sangat Kerap</string>
+    <string name="answer_m2">3 - Sangat Kerap</string>
+
+    <string name="murung3">Rasa rasa tidak ada apa yang boleh saya harapkan (putus harapan)</string>
+    <string name="murung3_A">0 - Tidak Pernah</string>
+    <string name="murung3_B">1 - Jarang</string>
+    <string name="murung3_C">2 - Kerap</string>
+    <string name="murung3_D">3 - Sangat Kerap</string>
+    <string name="answer_m3">3 - Sangat Kerap</string>
+
+    <string name="murung4">Saya rasa muram dan sedih</string>
+    <string name="murung4_A">0 - Tidak Pernah</string>
+    <string name="murung4_B">1 - Jarang</string>
+    <string name="murung4_C">2 - Kerap</string>
+    <string name="murung4_D">3 - Sangat Kerap</string>
+    <string name="answer_m4">3 - Sangat Kerap</string>
+
+    <string name="murung5">Saya tidak bersemangat langsung</string>
+    <string name="murung5_A">0 - Tidak Pernah</string>
+    <string name="murung5_B">1 - Jarang</string>
+    <string name="murung5_C">2 - Kerap</string>
+    <string name="murung5_D">3 - Sangat Kerap</string>
+    <string name="answer_m5">3 - Sangat Kerap</string>
+
+    <string name="murung6">Saya rasa diri saya tidak berharga</string>
+    <string name="murung6_A">0 - Tidak Pernah</string>
+    <string name="murung6_B">1 - Jarang</string>
+    <string name="murung6_C">2 - Kerap</string>
+    <string name="murung6_D">3 - Sangat Kerap</string>
+    <string name="answer_m6">3 - Sangat Kerap</string>
+
+    <string name="murung7">saya rasa hidup ini tidak beerti lagi</string>
+    <string name="murung7_A">0 - Tidak Pernah</string>
+    <string name="murung7_B">1 - Jarang</string>
+    <string name="murung7_C">2 - Kerap</string>
+    <string name="murung7_D">3 - Sangat Kerap</string>
+    <string name="answer_m7">3 - Sangat Kerap</string>
+
+    <string name="resah1">Saya sedar mulut saya rasa kering</string>
+    <string name="resah1_A">0 - Tidak Pernah</string>
+    <string name="resah1_B">1 - Jarang</string>
+    <string name="resah1_C">2 - Kerap</string>
+    <string name="resah1_D">3 - Sangat Kerap</string>
+    <string name="answer_r1">3 - Sangat Kerap</string>
+
+    <string name="resah2">Saya mengalami kesukaran bernafas (bernafas berlalu cepat, tercungap walaupun tidak melakukan aktiviti fizikal)</string>
+    <string name="resah2_A">0 - Tidak Pernah</string>
+    <string name="resah2_B">1 - Jarang</string>
+    <string name="resah2_C">2 - Kerap</string>
+    <string name="resah2_D">3 - Sangat Kerap</string>
+    <string name="answer_r2">3 - Sangat Kerap</string>
+
+    <string name="resah3">Saya pernah menggeletar (contoh tangan)</string>
+    <string name="resah3_A">0 - Tidak Pernah</string>
+    <string name="resah3_B">1 - Jarang</string>
+    <string name="resah3_C">2 - Kerap</string>
+    <string name="resah3_D">3 - Sangat Kerap</string>
+    <string name="answer_r3">3 - Sangat Kerap</string>
+
+    <string name="resah4">Saya risau akan berlaku keadaan dimana saya panik dan berkelakuan bodoh</string>
+    <string name="resah4_A">0 - Tidak Pernah</string>
+    <string name="resah4_B">1 - Jarang</string>
+    <string name="resah4_C">2 - Kerap</string>
+    <string name="resah4_D">3 - Sangat Kerap</string>
+    <string name="answer_r4">3 - Sangat Kerap</string>
+
+    <string name="resah5">Saya rasa hampir panik</string>
+    <string name="resah5_A">0 - Tidak Pernah</string>
+    <string name="resah5_B">1 - Jarang</string>
+    <string name="resah5_C">2 - Kerap</string>
+    <string name="resah5_D">3 - Sangat Kerap</string>
+    <string name="answer_r5">3 - Sangat Kerap</string>
+
+    <string name="resah6">Walaupun saya tidak melakukan aktivit fizikal, saya sedar akan debaran jantung saya (contoh degupan jantung lebih cepat.</string>
+    <string name="resah6_A">0 - Tidak Pernah</string>
+    <string name="resah6_B">1 - Jarang</string>
+    <string name="resah6_C">2 - Kerap</string>
+    <string name="resah6_D">3 - Sangat Kerap</string>
+    <string name="answer_r6">3 - Sangat Kerap</string>
+
+    <string name="resah7">Saya rasa takut tanpa sebab</string>
+    <string name="resah7_A">0 - Tidak Pernah</string>
+    <string name="resah7_B">1 - Jarang</string>
+    <string name="resah7_C">2 - Kerap</string>
+    <string name="resah7_D">3 - Sangat Kerap</string>
+    <string name="answer_r7">3 - Sangat Kerap</string>
+
+    <string name="stress1">Saya rasa susah untuk bertenang</string>
+    <string name="stress1_A">0 - Tidak Pernah</string>
+    <string name="stress1_B">1 - Jarang</string>
+    <string name="stress1_C">2 - Kerap</string>
+    <string name="stress1_D">3 - Sangat Kerap</string>
+    <string name="answer_s1">3 - Sangat Kerap</string>
+
+    <string name="stress2">Saya cenderung bertindak secara berlebihan kepada sesuatu keadaan</string>
+    <string name="stress2_A">0 - Tidak Pernah</string>
+    <string name="stress2_B">1 - Jarang</string>
+    <string name="stress2_C">2 - Kerap</string>
+    <string name="stress2_D">3 - Sangat Kerap</string>
+    <string name="answer_s2">3 - Sangat Kerap</string>
+
+    <string name="stress3">Saya rasa saya terlalu gelisah</string>
+    <string name="stress3_A">0 - Tidak Pernah</string>
+    <string name="stress3_B">1 - Jarang</string>
+    <string name="stress3_C">2 - Kerap</string>
+    <string name="stress3_D">3 - Sangat Kerap</string>
+    <string name="answer_s3">3 - Sangat Kerap</string>
+
+    <string name="stress4">Saya dapati saya mudah resah</string>
+    <string name="stress4_A">0 - Tidak Pernah</string>
+    <string name="stress4_B">1 - Jarang</string>
+    <string name="stress4_C">2 - Kerap</string>
+    <string name="stress4_D">3 - Sangat Kerap</string>
+    <string name="answer_s4">3 - Sangat Kerap</string>
+
+    <string name="stress5">Saya berasa sukar untuk relaks</string>
+    <string name="stress5_A">0 - Tidak Pernah</string>
+    <string name="stress5_B">1 - Jarang</string>
+    <string name="stress5_C">2 - Kerap</string>
+    <string name="stress5_D">3 - Sangat Kerap</string>
+    <string name="answer_s5">3 - Sangat Kerap</string>
+
+    <string name="stress6">Saya tidak boleh terima apa jua yang menghalangi saya daripada meneruska apa yang sedang saya lakukan</string>
+    <string name="stress6_A">0 - Tidak Pernah</string>
+    <string name="stress6_B">1 - Jarang</string>
+    <string name="stress6_C">2 - Kerap</string>
+    <string name="stress6_D">3 - Sangat Kerap</string>
+    <string name="answer_s6">3 - Sangat Kerap</string>
+
+    <string name="stress7">Saya mudah tersinggung</string>
+    <string name="stress7_A">0 - Tidak Pernah</string>
+    <string name="stress7_B">1 - Jarang</string>
+    <string name="stress7_C">2 - Kerap</string>
+    <string name="stress7_D">3 - Sangat Kerap</string>
+    <string name="answer_s7">3 - Sangat Kerap</string>
+
+
+    <string name="selectedoption2">SelectedOption</string>
+    <string name="correctanswer2">CorrectAnswer</string>
+    <string name="correctanswer">CorrectAnswer</string>
+    <string name="selectedoption">SelectedOption</string>
+    <string name="selectedoption3">selectedoption</string>
+    <string name="correctanswer3">correctanswer</string>
+
+    <string name= "dassDecs">DASS (Depression Anxiety Stress Scale) merupakan ujian saringan untuk mengenal pasti tahap kemurungan, kerisauan dan stress individu
+p/s: DASS digunakan sebagai saringan sahaja dan bukan hasil diagnosis. Jika keputusan anda agak merisaukan, dapatkan rawatan daripada pakar</string>
+    <string name="dassDepress">Kemurungan adalah gangguan perasaan seseorang yang menyebabkan seseorang itu merasa sedih yang berpanjangan, keletihan dan ketiadaan tenaga, cepat marah serta hilang minat dalam aktiviti harian. Ia berlarutan sekurang-kurangnya dalam masa 2 minggu. Penyakit ini boleh dihidapi oleh sesiapa sahaja tidak kira umur, jantina atau bangsa.
+        Kemurungan boleh berlangsung sehingga berbulan-bulan atau ber tahun-tahun</string>
+    <string name="dassAnxiety">Memiliki rasa cemas adalah hal yang amat wajar. Namun, jika terlalu sering merasa cemas secara berlebihan dan tanpa ada alasan yang kuat, Anda mungkin memiliki gangguan kecemasan atau dikenal juga sebagai anxiety disorders.</string>
+    <string name="dassStress">Desakan atau tekanan yang dihadapi oleh individu berikutan peristiwa yang berlaku pada mereka. Apa jua keadaan atau situasi yang mengancam atau dianggap mengganggu keadaan diri seseorang. Stres menyebabkan individu memerlukan keupayaan dan cara untuk menghadapinya.</string>
+
+</resources>

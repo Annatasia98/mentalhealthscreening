@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".ProfileAct2">
+
+    <TextView
+        android:id="@+id/tajuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROFIL SAYA"
+        android:textSize="40dp"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageview_profile"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:src="@drawable/image"
+        android:layout_below="@+id/tajuk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nama penuh"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_below="@+id/imageview_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/email1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_below="@+id/nama"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/noTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="no telefon"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_below="@+id/email1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        />
+
+</RelativeLayout>

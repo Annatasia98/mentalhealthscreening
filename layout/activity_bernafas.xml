@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:padding="16dp"
+    tools:context=".bernafas">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Video Teknik Pernafasan"
+        android:textColor="#48D1CC"
+        android:textSize="32sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/manual3">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/manual"
+        android:text="Langkah 1:"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:fontFamily="serif"
+        android:textColor="#000"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/textView"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/manual1"
+        android:text="Jika boleh, duduk tegak. Ini membantu meningkatkan ruang dalam paru-paru untuk menyalurkan lebih banyak oksigen."
+        android:textStyle="normal"
+        android:fontFamily="serif"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/manual"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/manual2"
+        android:text="Langkah 2:"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/manual1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/manual3"
+        android:text="Bernafas secara perlahan melalui hidung dan hembuskan melalui mulut."
+        android:textStyle="normal"
+        android:fontFamily="serif"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/manual2"
+        />
+
+
+</RelativeLayout>

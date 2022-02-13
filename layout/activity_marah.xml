@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient"
+    tools:context=".marah">
+
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JEJAK MOOD"
+        android:textColor="#48D1CC"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:id="@+id/bannerDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marah"
+        android:textColor="#48D1CC"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner" />
+
+    <CheckBox
+        android:id="@+id/berang"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Berang"
+        android:textColor="@color/black"
+        app:buttonTint="@color/black"
+        android:layout_marginHorizontal="70dp"
+        />
+    <CheckBox
+        android:id="@+id/kesalhati"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Kesal Hati"
+        android:textColor="@color/black"
+        app:buttonTint="@color/black"
+        android:layout_marginHorizontal="70dp"
+        />
+    <CheckBox
+        android:id="@+id/marah"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Marah Besar"
+        android:textColor="@color/black"
+        app:buttonTint="@color/black"
+        android:layout_marginHorizontal="70dp"
+        />
+    <CheckBox
+        android:id="@+id/bermusuh"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Bermusuhan"
+        android:textColor="@color/black"
+        app:buttonTint="@color/black"
+        android:layout_marginHorizontal="70dp"
+        />
+    <CheckBox
+        android:id="@+id/terganggu"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Terganggu"
+        android:textColor="@color/black"
+        app:buttonTint="@color/black"
+        android:layout_marginHorizontal="70dp"
+        />
+    <CheckBox
+        android:id="@+id/jengkel"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Jengkel"
+        android:textColor="@color/black"
+        app:buttonTint="@color/black"
+        android:layout_marginHorizontal="70dp"
+        />
+    <CheckBox
+        android:id="@+id/benci"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Benci"
+        android:textColor="@color/black"
+        app:buttonTint="@color/black"
+        android:layout_marginHorizontal="70dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HANTAR"
+        android:id="@+id/button"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="70dp"/>
+
+</LinearLayout>
